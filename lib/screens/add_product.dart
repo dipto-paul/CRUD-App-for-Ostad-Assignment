@@ -34,6 +34,7 @@ class _AddProductState extends State<AddProduct> {
         productImageController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
+
           content: Text("Please fill all fields"),
         ),
       );
