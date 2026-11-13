@@ -35,6 +35,7 @@ class _UpdateProductState extends State<UpdateProduct> {
 
     productCodeController = TextEditingController(
       text: widget.product.productCode?.toString() ?? "",
+
     );
 
     productPriceController = TextEditingController(
