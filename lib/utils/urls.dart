@@ -12,5 +12,7 @@ class Urls {
 
   static String deleteURL(String id) {
     return "$baseUrl/DeleteProduct/$id";
+
+
   }
 }
