@@ -6,6 +6,7 @@ class Urls {
 
   static String createURL = "$baseUrl/CreateProduct";
 
+
   static String updateURL(String id) {
     return "$baseUrl/UpdateProduct/$id";
   }
