@@ -15,5 +15,6 @@ class Urls {
     return "$baseUrl/DeleteProduct/$id";
 
 
+
   }
 }
